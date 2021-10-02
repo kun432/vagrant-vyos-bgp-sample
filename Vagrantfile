@@ -15,6 +15,7 @@ Vagrant.configure("2") do |config|
       v.gui = false
       v.memory = 512
     end
+    c.vm.provision :shell, :path => "scripts/setup_rt1.sh"
   end
 
   config.vm.define "rt-2" do |c|
@@ -27,6 +28,7 @@ Vagrant.configure("2") do |config|
       v.gui = false
       v.memory = 512
     end
+    c.vm.provision :shell, :path => "scripts/setup_rt2.sh"
   end
 
   config.vm.define "rt-3" do |c|
@@ -38,6 +40,7 @@ Vagrant.configure("2") do |config|
       v.gui = false
       v.memory = 512
     end
+    c.vm.provision :shell, :path => "scripts/setup_rt3.sh"
   end
 
   (1..3).each do |n|
