@@ -1,6 +1,6 @@
 # vagrant-vyos-bgp-sample
 
-<img src="https://github.com/kun432/vagrant-vyos-bgp-sample/raw/main/vagrant-vyos-bgp-sample.png" width=400 />
+<img src="https://github.com/kun432/vagrant-vyos-bgp-sample/raw/main/vagrant-vyos-bgp-sample.png" width=800 />
 
 ```shell
 $ git clone https://github.com/kun432/vagrant-vyos-bgp-sample.git
